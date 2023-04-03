@@ -1,0 +1,99 @@
+
+*{
+    margin: 12px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(20, 18, 18, 0.3);
+}
+/*pokemonIndex*/
+.showA{
+    display: block;
+}
+.hiddenA{
+    display: none;
+}
+header{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+}
+header div a{
+    text-decoration: none;
+    color: blanchedalmond;
+    
+}
+
+.container{
+    
+    display: grid;
+    align-items: "start";
+    justify-items: auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+
+    gap: 25px;
+      
+}
+
+.pokemonLink{
+    color: black;
+    background-color:gray;
+    text-decoration: none;
+    text-align:center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+    padding: 20px 15px;
+    border-radius: 3px;
+}
+.pokemonLink:hover{
+    background-color:rgba(20, 18, 18, 0.3);
+}
+footer{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+
+/*pokemonForm*/
+
+h2{
+    text-align:center;
+  }
+  
+  #formulario{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  #formulario input{
+    width: 90%;
+    height: 30px;
+    margin: .5rem
+  }
+  
+  #formulario button{
+    padding: .5em 1em;
+    border:2px;
+    background: rgb(91, 93, 94);
+    cursor: pointer;
+  }
+  
+  
+/*pokemonDetails*/
+
+#namePokemon{
+    font-size:xx-large;
+}
+img{
+    width: 50%;
+}
+
+
